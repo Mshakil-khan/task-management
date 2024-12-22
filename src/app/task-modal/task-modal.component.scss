@@ -1,0 +1,32 @@
+/* Responsive Design */
+
+/* For larger screens (default) */
+.full-width {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  mat-dialog-content {
+    padding: 16px;
+  }
+  
+  /* For small screens and mobile */
+  @media (max-width: 768px) {
+    mat-dialog-container {
+      width: 90%;
+      padding: 0;
+    }
+  
+    mat-dialog-content {
+      padding: 8px;
+    }
+  
+    mat-form-field {
+      width: 100%;
+    }
+  
+    mat-dialog-actions {
+      justify-content: space-between;
+    }
+  }
+  
